@@ -1,0 +1,39 @@
+#name {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	color: #066;
+	font-weight: normal;
+}
+#addy {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	font-style: italic;
+	color: #666;
+	font-weight: bold;
+}
+#addy strong {
+	color: #666;
+}
+#heading {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #C60;
+	font-size: 12px;
+	font-weight: bold;
+}
+#title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 25px;
+}
+#date {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999;
+}
+#details {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #069;
+	font-size: 14px;
+}
