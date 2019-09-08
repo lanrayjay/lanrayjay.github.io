@@ -3,14 +3,18 @@ function formValidation()
 
 var fname = document.registration.fname;
 var uemail = document.registration.email;
+var utitle = document.registration.utitle;
 var umessage = document.registration.note;
 
 	if(allLetter(fname))
 	{	
 		if(ValidateEmail(uemail))
-		{
-			if(ValidateNote(umessage))
+		{	
+			if(ValidateTitle(utitle))
 			{
+				if(ValidateNote(umessage))
+				{
+				}
 			}
 		}
 	}
@@ -44,6 +48,22 @@ function ValidateEmail(uemail)
 	{
 		alert("You have entered an invalid email address!");
 		uemail.focus();
+		return false;
+	}
+}
+
+function ValidateTitle(utitle)
+{ 
+	var letters = /^[A-Za-z\s]+$/;
+	
+	if(utitle.value.match(letters))
+	{
+		return true;
+	}
+	else
+	{
+		alert('Message title must have alphabet characters only');
+		utitle.focus();
 		return false;
 	}
 }
