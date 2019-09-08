@@ -83,7 +83,7 @@ function ValidateNote(umessage)
 	}
 	else
 	{
-		alert('Message must have alphabet characters only');
+		alert('Message must have alphabet characters only and at least twenty (20) characters');
 		umessage.focus();
 		return false;
 	}
