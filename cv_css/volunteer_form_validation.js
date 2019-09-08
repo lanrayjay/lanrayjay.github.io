@@ -62,7 +62,7 @@ function ValidateTitle(utitle)
 	}
 	else
 	{
-		alert('Message title must have alphabet characters only');
+		alert('Message title must contain alphabetes characters');
 		utitle.focus();
 		return false;
 	}
@@ -83,7 +83,7 @@ function ValidateNote(umessage)
 	}
 	else
 	{
-		alert('Message must have alphabet characters only and at least twenty (20) characters');
+		alert('Message must contain alphabetes only and at least twenty of (20) characters');
 		umessage.focus();
 		return false;
 	}
